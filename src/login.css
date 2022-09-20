@@ -1,0 +1,77 @@
+#title{
+    font-size:40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 350px;
+    padding: 5px;
+    border: 2px solid lightgrey;
+    margin: 0 auto;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top:4rem;
+}
+
+label{
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+input{
+    font-size:15px;
+    text-align: center;
+    margin-top: 5px;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#submit{
+    background-color:blue;
+    color:white;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    font-size:20px;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+#link{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+#li{
+    color:black;
+    margin-left:1rem;
+    margin-right:1rem;
+    font-size:16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#icon{
+    background-color: black;
+    color: black;
+    cursor: pointer;
+}
+
+#back{
+    width:130px;
+    height:40px;
+    margin-left:1rem;
+    background-color:blue;
+    color: white;
+    font-size:20px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+}

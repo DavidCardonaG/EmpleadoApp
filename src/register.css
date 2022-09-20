@@ -1,0 +1,65 @@
+body{
+    background-image: url(/images/con1.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 580px;
+    padding: 5px;
+    border: 2px solid lightgrey;
+    margin: 0 auto;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: lightgrey ;
+    opacity: 0.7;
+}
+
+label{
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+input{
+    font-size:15px;
+    text-align: center;
+    margin-top: 5px;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#submit{
+    background-color:blue;
+    color:white;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    font-size:20px;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+#icon{
+    background-color: black;
+    color: black;
+    cursor: pointer;
+}
+
+#back{
+    width:130px;
+    height:40px;
+    margin-left:1rem;
+    background-color:blue;
+    color: white;
+    font-size:20px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+}
