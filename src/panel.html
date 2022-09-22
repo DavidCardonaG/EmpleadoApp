@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="panel.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="wrapper">
+            <!-- Sidebar  -->
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                   <img id="logo" src="/images/logo (2).png" alt="logo">
+                </div>
+    
+                <ul class="list-unstyled components">
+                    <p>Información</p>
+                    <li>
+                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Descripción</a>
+                
+                    </li>
+                    <li>
+                        <a href="#">Puntaje Descriptivo</a>
+                    </li>
+                    <li>
+                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Administrador</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu">
+                            <li>
+                                <a href="#">Agregar Usuario</a>
+                            </li>
+                            <li>
+                                <a href="#">Agregar Salario</a>
+                            </li>
+                            <li>
+                                <a href="#">Agregar Descripción</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+    
+                <ul class="list-unstyled CTAs">
+                    <li>
+                        <a id="link" href="" class="article">Logout</a>
+                    </li>
+                </ul>
+            </nav>
+    
+            <!-- Page Content  -->
+            <div id="content">
+    
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <h1 id="title">`BIENVENIDO ${USER}`</h1>
+                    </div>
+                </nav>
+    
+                <h2>DESCRIPCIÓN DATA</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
+                <div class="line"></div>
+    
+                <h2>INFORMACIÓN</h2>
+                <p>Data traida desde la base de datos SQLite.</p>
+    
+            </div>
+        </div>
+
+    
+</body>
+<script>
+
+let inicio = document.getElementById("link");
+inicio.addEventListener("click",(e)=>{
+    e.preventDefault();
+    window.location.href="index.html";
+    alert("Sesión Finalizada");
+})
+</script>
+</html>
